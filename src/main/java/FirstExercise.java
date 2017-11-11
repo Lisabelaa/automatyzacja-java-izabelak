@@ -13,5 +13,6 @@ public class FirstExercise {
             System.out.println("Aby zamknąć aplikację wpisz 'exit' i wciśnij enter.");
             answer = scanner.nextLine();
         } while(!answer.equals("exit"));
+        scanner.close();
     }
 }
